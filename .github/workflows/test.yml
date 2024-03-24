@@ -2,12 +2,7 @@ name: Test
 
 on:
   push:
-    branches: [ main ]
-    paths:
-      - "src/**"
-      - "tests/**"
-      - "meson.build"
-      - "meson_options.txt"
+    branches: [ '*' ]
   pull_request:
     branches: [ main ]
     paths:
