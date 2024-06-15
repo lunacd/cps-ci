@@ -2,3 +2,6 @@ subprojects/*
 !subprojects/*.wrap
 .pixi/
 .cache/
+
+# CMake build directory
+/build/
